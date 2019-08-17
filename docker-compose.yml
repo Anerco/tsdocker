@@ -1,0 +1,13 @@
+version: "3.7"
+
+services:
+  web:
+    build: .
+    command: npm start
+    volumes:
+      - ./dist:/server/dist
+    restart: always
+    environment:
+      - NODE_ENV=production
+    ports:
+      - "80:8080"

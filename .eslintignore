@@ -1,0 +1,5 @@
+build/*
+!build/index.js
+
+dist/*
+!dist/index.js

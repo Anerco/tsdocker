@@ -1,0 +1,15 @@
+version: "3.7"
+
+services:
+  web:
+    build: .
+    command: npm run debug
+    volumes:
+      - ./dist:/server/dist
+    restart: always
+    environment:
+      - NODE_ENV=development
+      - DEBUG=tsdocker:*
+    ports:
+      - "8080:8080"
+      - "5858:5858"
