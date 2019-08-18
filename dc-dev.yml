@@ -1,8 +1,10 @@
 version: "3.7"
 
 services:
-  web:
-    build: .
+  web-dev:
+    build:
+      context: .
+      dockerfile: dev.Dockerfile
     command: npm run debug
     volumes:
       - ./dist:/server/dist

@@ -3,11 +3,10 @@ version: "3.7"
 services:
   web:
     build: .
-    command: npm start
-    volumes:
-      - ./dist:/server/dist
+    command: node /server/build/bin/www.js
     restart: always
     environment:
       - NODE_ENV=production
+      - PORT=80
     ports:
-      - "80:8080"
+      - "80:80"

@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
-    "outDir": "../dist",
-    "sourceMap": true,
+    "outDir": "../build",
+    "sourceMap": false,
     "esModuleInterop": true
   },
   "exclude": ["**/*.spec.ts"]
