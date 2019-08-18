@@ -9,3 +9,17 @@ A receipe for building best practice containerized node js apps - TypeScript,VSC
 ## Production
 
 - docker-compose up
+
+# heroku
+
+## Creation
+
+- heroku login
+- heroku create {name}
+
+## Deployment
+
+- heroku container:login
+- git add .
+- git commit -m "{message}"
+- git push heroku master
