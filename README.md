@@ -1,4 +1,4 @@
-A receipe for building best practice containerized node js apps - TypeScript,VSCode Debugging,Live Reloading,ESLint,Testing & Prettier
+A recipe for building best practice containerized node js apps - TypeScript,VSCode Debugging,Live Reloading,ESLint,Testing & Prettier
 
 ## Debug
 
